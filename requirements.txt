@@ -1,0 +1,5 @@
+Deprecated==1.2.7
+protobuf==3.5.1
+six==1.16.0
+transitions==0.9.2
+wrapt==1.16.0
