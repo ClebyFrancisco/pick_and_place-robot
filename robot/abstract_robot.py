@@ -38,5 +38,5 @@ class AbstractRobot(ABC):
     def check_faults(self):
         ...
     @abstractmethod
-    def gripper(self, value):
+    def open_gripper(self, value):
         ...
