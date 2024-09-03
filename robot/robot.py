@@ -1,7 +1,7 @@
 from kortex_api.Exceptions.KException import KException
 from kortex_api.autogen.messages import Base_pb2, DeviceConfig_pb2, Common_pb2
-from robot.abstract_robot import AbstractRobot
-from robot.robot_connection import RobotConnection
+from abstract_robot import AbstractRobot
+from robot_connection import RobotConnection
 import time
 import threading
 
