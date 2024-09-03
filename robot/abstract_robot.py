@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class AbstractRobot(ABC):
+class AbstractRobot():
     """
     This class is an abstract class for the robot.
     """
@@ -15,7 +15,7 @@ class AbstractRobot(ABC):
         ...
 
     @abstractmethod
-    def check_finished(self):
+    def check_for_end_or_abort(self):
         ...
 
     @abstractmethod
@@ -38,5 +38,5 @@ class AbstractRobot(ABC):
     def check_faults(self):
         ...
     @abstractmethod
-    def open_gripper(self, value):
+    def gripper(self):
         ...
